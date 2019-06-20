@@ -1,0 +1,351 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4353,
+      "max": [
+        855.5859375,
+        1264.1778564453125,
+        412.5438232421875
+      ],
+      "min": [
+        -855.586181640625,
+        -933.45526123046875,
+        -416.38284301757812
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 52236,
+      "componentType": 5126,
+      "count": 4353,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4353,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 69648,
+      "componentType": 5126,
+      "count": 4353,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4353,
+      "max": [
+        0.99516713619232178,
+        0.99409669637680054
+      ],
+      "min": [
+        0.0062057767063379288,
+        0.0097140371799468994
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 34824,
+      "componentType": 5126,
+      "count": 4353,
+      "max": [
+        0.99516713619232178,
+        0.99409669637680054
+      ],
+      "min": [
+        0.0062057767063379288,
+        0.0097140371799468994
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7704,
+      "max": [
+        4352
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "circuitkitty (https://sketchfab.com/circuitkitty)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/65743939071a453f819de564fe99d531",
+      "title": "Sci-Fi Fighter"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 30816,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 69648,
+      "byteOffset": 30816,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 104472,
+      "byteOffset": 100464,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 139296,
+      "byteOffset": 204936,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 344232,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/SciFi_Fighter_AK5_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/SciFi_Fighter_AK5_emissive.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1,
+        "texCoord": 1
+      },
+      "name": "SciFi_Fighter_AK5",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.72240202689999999
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SciFi_Fighter_AK5_SciFi_Fighter_AK5_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4,
+            "TEXCOORD_1": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "SciFi_Fighter_AK5.FBX"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.999999999999999,
+        4.3711388730827139e-08,
+        0,
+        0,
+        -4.3711388730827139e-08,
+        0.999999999999999,
+        0,
+        0,
+        2.86102294921875e-05,
+        0,
+        1
+      ],
+      "name": "SciFi_Fighter_AK5"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.90202504396438599,
+        0,
+        0,
+        0,
+        0,
+        5.5233104142086792e-17,
+        -0.90202504396438599,
+        0,
+        -0,
+        0.90202504396438599,
+        5.5233104142086792e-17,
+        0,
+        0.00011011047899955884,
+        1.7314453125,
+        149.1600341796875,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": "SciFi_Fighter_AK5_SciFi_Fighter_AK5_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
